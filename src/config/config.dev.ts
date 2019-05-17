@@ -3,7 +3,7 @@ import { IConfigOptions } from "../types";
 let config: IConfigOptions = {
   version: '2.3',
   serve: {
-    port: 8080,
+    port: 6164,
   },
   keys: ['some secret hurr'],
   session: {
@@ -14,8 +14,8 @@ let config: IConfigOptions = {
     host: 'localhost',
     port: 3306,
     username: 'root',
-    password: '',
-    database: 'RAP2_DELOS_APP',
+    password: '58104038lpw',
+    database: 'TEST_APP',
     pool: {
       max: 5,
       min: 0,
