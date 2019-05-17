@@ -15,8 +15,8 @@ let config: IConfigOptions =  {
         host: process.env.MYSQL_URL || 'localhost',
         port: (process.env.MYSQL_PORT && parseInt(process.env.MYSQL_PORT)) || 3306,
         username: process.env.MYSQL_USERNAME || 'root',
-        password: process.env.MYSQL_PASSWD || '',
-        database: process.env.MYSQL_SCHEMA || 'rap',
+        password: process.env.MYSQL_PASSWD || '4038lpw',
+        database: process.env.MYSQL_SCHEMA || 'YP_MOCK',
         pool: {
             max: 80,
             min: 0,
