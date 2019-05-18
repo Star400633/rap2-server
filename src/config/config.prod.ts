@@ -12,7 +12,7 @@ let config: IConfigOptions =  {
     },
     db: {
         dialect: 'mysql',
-        host: '34.80.180.30',
+        host: 'star93.site',
         port: 3306,
         username: 'root',
         password: '4038lpw',
