@@ -4,7 +4,7 @@ import { IConfigOptions } from "../types";
 let config: IConfigOptions =  {
     version: '2.3',
     serve: {
-        port: (process.env.EXPOSE_PORT && parseInt(process.env.EXPOSE_PORT)) || 8080,
+        port: (process.env.EXPOSE_PORT && parseInt(process.env.EXPOSE_PORT)) || 4678,
     },
     keys: ['some secret hurr'],
     session: {
