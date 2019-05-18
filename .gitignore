@@ -1,5 +1,4 @@
 .nyc_output
-/dist
 /bin
 /.idea/workspace.xml
 .DS_Store
