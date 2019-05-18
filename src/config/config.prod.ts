@@ -4,7 +4,7 @@ import { IConfigOptions } from "../types";
 let config: IConfigOptions =  {
     version: '2.3',
     serve: {
-        port: (process.env.EXPOSE_PORT && parseInt(process.env.EXPOSE_PORT)) || 4678,
+        port: 4678,
     },
     keys: ['some secret hurr'],
     session: {
@@ -12,11 +12,11 @@ let config: IConfigOptions =  {
     },
     db: {
         dialect: 'mysql',
-        host: process.env.MYSQL_URL || '34.80.180.30',
-        port: (process.env.MYSQL_PORT && parseInt(process.env.MYSQL_PORT)) || 3306,
-        username: process.env.MYSQL_USERNAME || 'root',
-        password: process.env.MYSQL_PASSWD || '4038lpw',
-        database: process.env.MYSQL_SCHEMA || 'YP_MOCK',
+        host: '34.80.180.30',
+        port: 3306,
+        username: 'root',
+        password: '4038lpw',
+        database: 'YP_MOCK',
         pool: {
             max: 80,
             min: 0,
