@@ -1,6 +1,7 @@
 .nyc_output
 /bin
 /.idea/workspace.xml
+dist
 .DS_Store
 node_modules
 bower_components
